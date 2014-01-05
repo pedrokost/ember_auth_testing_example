@@ -1,0 +1,20 @@
+#ember-testing-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 640px;
+  height: 384px;
+  overflow: auto;
+  z-index: 9999;
+  border: 1px solid #ccc;
+  background: white; 
+  opacity: 0.8;
+}
+#ember-testing {
+  zoom: 50%;
+}
+
+#ember-testing-container:hover {
+  zoom: 120%;
+  opacity: 1;
+}
